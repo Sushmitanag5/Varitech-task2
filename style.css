@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#home{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 220px;
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(78, 78, 204);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+#nav #hi{
+    border: 2px solid rgb(5, 156, 216);
+    font-weight: 800;
+    padding: 1px 20px;
+    color: #593C73;
+    font-size: 22px;
+
+}
+#home h1{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    font-size: 250px;
+    color:#593C73;
+}
+#home #center{
+    width: 45%;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#home #left{
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    transform: translate(-50%,-50%);
+}
+#home #right{
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 99%;
+    transform: translate(-50%,-50%);
+}
+#home #para{
+    text-align: center;
+    width: 30%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: "gilroy";
+}
+#home #para h3{
+    color: #593C73;
+    font-size: 20px;
+    font-weight: 800;
+}
+#home #para p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "gilroy";
+    line-height: 1;
+}
+#vacant{
+    width: 100%;
+    height: 100vh;
+}
+#slanted{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+#slanter{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(77, 77, 245, 0.355);
+    clip-path: polygon(0 30%,100% 0,100% 100%,0 100%);
+
+}
+#rotated h1{
+    font-family: "voyage";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+
+}
+#rotated {
+    top: 20%;
+    z-index: 99999;
+    position: absolute;
+    transform: rotate(-90deg);
+    mix-blend-mode:color;
+}
+#slanter #text{
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    width: 20%;
+}
+#text p{
+    font-size: 15px;
+    font-weight: 500;
+    height: 100vh;
+    font-family: "gilroy";
+    margin-top: 30px;
+}
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(185, 19, 236, 0.414);
+}
+#footer img{
+    width: 100%;
+    mix-blend-mode: darken;
+}
+#footer h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    position: absolute;
+    font-family: "voyage";
+    font-size: 160px;
+    z-index: 9999;
+
+}
+
